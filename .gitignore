@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Data directories
+data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

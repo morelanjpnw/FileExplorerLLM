@@ -1,0 +1,9 @@
+{
+    "ignore_dirs": ["Library", "node_modules", "bin", "obj"],
+    "include_extensions": [
+        ".jpg", ".jpeg", ".png", ".tif", ".tiff", ".gif", ".tga", ".bmp",
+        ".docx", ".pptx", ".xlsx", ".doc", ".ppt", ".xls", ".txt", ".pdf",
+        ".mp4", ".avi", ".wmv", ".mkv",
+        ".py", ".cs", ".html", ".css", ".js"
+    ]
+}

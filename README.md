@@ -56,22 +56,6 @@ pip install pymongo sentence-transformers faiss-cpu requests
 
 ---
 
-## Project Structure
-
-\`\`\`
-FileExplorerLLM/
-├── data/
-│   ├── indexes/      # FAISS indexes and file mappings
-│   └── scans/        # BSON files from directory scans
-├── config.json       # Ignore folders and allowed file types
-├── file_scanner.py   # Recursively scan and save file metadata
-├── generate_embeddings_and_indexing.py  # Build FAISS index from scans
-├── chatbot.py        # Chat interface using local LLM (via Ollama)
-├── README.md         # This file
-\`\`\`
-
----
-
 ## Usage
 
 ### 1. Scan a Directory
